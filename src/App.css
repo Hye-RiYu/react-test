@@ -1,0 +1,42 @@
+.navbar {
+  padding: 1.4rem;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.nav-link {
+  margin-left: 1rem;
+}
+
+.nav-link:last-child {
+  color: #e9c46a;
+}
+
+.title {
+  font-weight: 900;
+  color: #264653;
+}
+
+.py-4 {
+  background-color: #264653 !important;
+  color: #e9c46a;
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+.btn-primary {
+  color: black !important;
+  background-color: #e9c46a !important;
+}
+
+.loader-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
